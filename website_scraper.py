@@ -1,13 +1,4 @@
-"""
-website_scraper.py — Scrapes NareshIT course schedule page.
 
-Fetches the HTML from the configured URL, locates all <table> elements,
-parses them with BeautifulSoup, converts to clean DataFrames, and saves
-both structured JSON and readable text.
-
-Called automatically at app startup and whenever the user clicks
-"Refresh Website Data".
-"""
 
 from __future__ import annotations
 
@@ -44,9 +35,8 @@ class WebsiteScraper:
         self.tables_data: list[dict[str, Any]] = []
         self.cleaned_text: str = ""
 
-    # ------------------------------------------------------------------
     # Public API
-    # ------------------------------------------------------------------
+
     def scrape_and_save(self) -> str:
         """
         Full pipeline: fetch → parse tables → clean → save.
@@ -81,9 +71,9 @@ class WebsiteScraper:
         )
         return self.cleaned_text
 
-    # ------------------------------------------------------------------
+
     # Internals
-    # ------------------------------------------------------------------
+
     def _fetch_html(self) -> str | None:
         """GET the page HTML.  Returns None on failure."""
         try:
@@ -203,10 +193,8 @@ class WebsiteScraper:
             return text
         return ""
 
-
-# ---------------------------------------------------------------------------
 # Convenience
-# ---------------------------------------------------------------------------
+
 def scrape_website() -> str:
     """One-call helper used by the RAG pipeline on startup."""
     scraper = WebsiteScraper()
