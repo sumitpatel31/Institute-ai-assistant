@@ -1,10 +1,3 @@
-"""
-prompt_template.py — System and user prompt templates for the RAG pipeline.
-
-Defines the prompts used to instruct the Groq LLM.  The system prompt
-enforces strict grounding in retrieved context and forbids hallucination.
-"""
-
 from __future__ import annotations
 
 SYSTEM_PROMPT: str = """\
