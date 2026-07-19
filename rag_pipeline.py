@@ -53,9 +53,8 @@ class RAGPipeline:
         self.retriever = Retriever()
         self._llm: ChatGroq | None = None
 
-    # ------------------------------------------------------------------
     # Initialization
-    # ------------------------------------------------------------------
+
     def initialize(self, website_text: str | None = None) -> None:
         """
         Full initialisation pipeline (called at app startup).
@@ -107,9 +106,9 @@ class RAGPipeline:
 
         logger.info("Website data reloaded and index rebuilt.")
 
-    # ------------------------------------------------------------------
+
     # Query
-    # ------------------------------------------------------------------
+  
     def ask(self, question: str) -> PipelineResponse:
         """
         Full RAG flow: retrieve → prompt → generate → return.
@@ -149,9 +148,8 @@ class RAGPipeline:
             context_used=context,
         )
 
-    # ------------------------------------------------------------------
     # LLM
-    # ------------------------------------------------------------------
+  
     def _get_llm(self) -> ChatGroq:
         """Lazy-init the Groq Chat model."""
         if self._llm is None:
@@ -192,10 +190,8 @@ class RAGPipeline:
                 "Please try again later."
             )
 
-
-# ---------------------------------------------------------------------------
 # Module-level singleton
-# ---
+
 _rag_pipeline: RAGPipeline | None = None
 
 
