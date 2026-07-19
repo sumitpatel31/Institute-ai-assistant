@@ -1,9 +1,4 @@
-"""
-embeddings.py — Free local embedding model wrapper.
 
-Uses HuggingFace sentence-transformers (no API key required).
-The model is downloaded once and cached locally by HuggingFace Hub.
-"""
 
 from __future__ import annotations
 
@@ -54,9 +49,8 @@ class EmbeddingManager:
         return self.embeddings
 
 
-# ---------------------------------------------------------------------------
 # Module-level singleton — import this everywhere
-# ---------------------------------------------------------------------------
+
 _embedding_manager: EmbeddingManager | None = None
 
 
