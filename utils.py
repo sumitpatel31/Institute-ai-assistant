@@ -1,8 +1,3 @@
-"""
-utils.py — Shared utility functions for the NareshIT RAG Assistant.
-
-Includes logging setup, path helpers, and common text utilities.
-"""
 
 from __future__ import annotations
 
@@ -14,9 +9,9 @@ from typing import Any
 from config import settings
 
 
-# ---------------------------------------------------------------------------
+
 # Logging
-# ---------------------------------------------------------------------------
+
 def setup_logging(name: str = "nareshit_rag") -> logging.Logger:
     """Create and return a configured logger instance."""
 
@@ -42,9 +37,8 @@ def setup_logging(name: str = "nareshit_rag") -> logging.Logger:
 logger = setup_logging()
 
 
-# ---------------------------------------------------------------------------
 # File helpers
-# ---------------------------------------------------------------------------
+
 def ensure_dir(path: Path) -> Path:
     """Create *path* (and parents) if it does not already exist."""
     path.mkdir(parents=True, exist_ok=True)
@@ -56,9 +50,9 @@ def list_files(directory: Path, extension: str = "*.pdf") -> list[Path]:
     return sorted(directory.glob(extension))
 
 
-# ---------------------------------------------------------------------------
+
 # Misc
-# ---------------------------------------------------------------------------
+
 def safe_get(data: dict[str, Any], *keys: str, default: Any = None) -> Any:
     """Nested-dict safe accessor.  Returns *default* if any key is missing."""
     current = data
