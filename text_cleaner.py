@@ -1,9 +1,4 @@
-"""
-text_cleaner.py — Text cleaning utilities for the RAG pipeline.
 
-Removes HTML artifacts, extra whitespace, duplicate lines, null values,
-and other noise from both scraped website data and extracted PDF text.
-"""
 
 from __future__ import annotations
 
@@ -58,9 +53,9 @@ class TextCleaner:
         value = re.sub(r"\s+", " ", value).strip()
         return value
 
-    # ------------------------------------------------------------------
+  
     # Internals
-    # ------------------------------------------------------------------
+   
     def _strip_html_tags(self, text: str) -> str:
         return self._RE_HTML_TAG.sub("", text)
 
