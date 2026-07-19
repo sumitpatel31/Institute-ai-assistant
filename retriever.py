@@ -1,11 +1,3 @@
-"""
-retriever.py — Retrieval helper for the RAG pipeline.
-
-Wraps vector-store similarity search and adds post-processing:
-  - Source metadata extraction
-  - Deduplication
-  - Priority ranking (website data first)
-"""
 
 from __future__ import annotations
 
@@ -94,9 +86,8 @@ class Retriever:
                 sources.append(r.source)
         return sources
 
-    # ------------------------------------------------------------------
     # Internals
-    # ------------------------------------------------------------------
+
     def _process_results(
         self, documents: list[Document]
     ) -> list[RetrievalResult]:
