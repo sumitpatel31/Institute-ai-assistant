@@ -161,6 +161,3 @@ When the user clicks **"Refresh Website Data"** in the sidebar:
 
 This ensures the assistant always uses the latest available data.
 
-## License
-
-This project is for educational and internal use at NareshIT.
