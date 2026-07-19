@@ -1,10 +1,3 @@
-"""
-chatbot.py — Chatbot with session memory.
-
-Manages conversation history for the current session and provides a
-clean interface between the Streamlit UI and the RAG pipeline.
-"""
-
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -40,9 +33,9 @@ class Chatbot:
         self.pipeline = get_pipeline()
         self.history: list[ChatMessage] = []
 
-    # ------------------------------------------------------------------
+  
     # Public API
-    # ------------------------------------------------------------------
+
     def chat(self, user_message: str) -> ChatMessage:
         """
         Process a user message and return an assistant response.
@@ -102,10 +95,8 @@ class Chatbot:
             self.history[-2].content,
             self.history[-1].content,
         )
-
-    # ------------------------------------------------------------------
     # Internals
-    # ------------------------------------------------------------------
+
     def _trim_history(self) -> None:
         """Keep only the last N turns to manage memory."""
         max_msgs = self.MAX_HISTORY_TURNS * 2  # user + assistant per turn
@@ -113,9 +104,9 @@ class Chatbot:
             self.history = self.history[-max_msgs:]
 
 
-# ---------------------------------------------------------------------------
+
 # Module-level singleton
-# ---
+
 _chatbot: Chatbot | None = None
 
 
