@@ -1,0 +1,259 @@
+{
+  "source_url": "https://nareshit.in/course-schedule/",
+  "scraped_at": "2026-07-19T12:41:06.956282",
+  "total_rows": 36,
+  "courses": [
+    {
+      "Course": "Full Stack JAVA",
+      "Faculty": "Mr. Kishan",
+      "Date": "17th July",
+      "Time (IST)": "6:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack PYTHON",
+      "Faculty": "Mr. Satish Gupta",
+      "Date": "17th July",
+      "Time (IST)": "7:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Adv GEN AI & Agentic AI",
+      "Faculty": "Mr. Prudhvi",
+      "Date": "17th July",
+      "Time (IST)": "8:30 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Azure + Azure DevOps",
+      "Faculty": "Mr. Pawan",
+      "Date": "17th July",
+      "Time (IST)": "6:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "CYBER SECURITY with AI",
+      "Faculty": "Mr. Sourabh",
+      "Date": "17th July",
+      "Time (IST)": "7:30 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack DATA SCIENCE with Gen AI",
+      "Faculty": "Mr. Ajith Reddy",
+      "Date": "20th July",
+      "Time (IST)": "7:30 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "DSA with JAVA & System Design",
+      "Faculty": "Mr. Abhijeet",
+      "Date": "17th July",
+      "Time (IST)": "8:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "ORACLE (SQL & PL/SQL)",
+      "Faculty": "Mr. Shiva Chaitanya",
+      "Date": "17th July",
+      "Time (IST)": "2:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "HTML | CSS | JavaScript",
+      "Faculty": "Mr. Sudhakar Sharma",
+      "Date": "17th July",
+      "Time (IST)": "4:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "SQL SERVER",
+      "Faculty": "Mr. Vijay Kumar",
+      "Date": "17th July",
+      "Time (IST)": "5:30 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack DATA SCIENCE with Gen AI",
+      "Faculty": "Mr. Ravi",
+      "Date": "17th July",
+      "Time (IST)": "9:00 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "CORE JAVA",
+      "Faculty": "Mr. Kishan",
+      "Date": "17th July",
+      "Time (IST)": "6:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack PYTHON",
+      "Faculty": "Mr. Mahesh",
+      "Date": "17th July",
+      "Time (IST)": "4:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "DJANGO with Rest API",
+      "Faculty": "Mr. Satish Gupta",
+      "Date": "17th July",
+      "Time (IST)": "5:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "PYTHON",
+      "Faculty": "Mr. Mahesh",
+      "Date": "17th July",
+      "Time (IST)": "4:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack .NET Core",
+      "Faculty": "Mr. Bangar Raju",
+      "Date": "20th July",
+      "Time (IST)": "7:30 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "C#.NET",
+      "Faculty": "Mr. Bangar Raju",
+      "Date": "20th July",
+      "Time (IST)": "7:30 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "DevSecOps Tools",
+      "Faculty": "Mr. Nataraj",
+      "Date": "20th July",
+      "Time (IST)": "9:00 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "REACT JS",
+      "Faculty": "Mr. Sudhakar Sharma",
+      "Date": "20th July",
+      "Time (IST)": "7:30 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "REACT JS",
+      "Faculty": "Mr. Ram",
+      "Date": "20th July",
+      "Time (IST)": "7:30 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "CRT",
+      "Faculty": "Mr. Naveen",
+      "Date": "20th July",
+      "Time (IST)": "4:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Database for FS Python",
+      "Faculty": "Mr. Sharma",
+      "Date": "22nd July",
+      "Time (IST)": "7:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "AWS Basics for FS Java & Python",
+      "Faculty": "Mr. Imran",
+      "Date": "20th July",
+      "Time (IST)": "6:00 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack PYTHON",
+      "Faculty": "Mr. K V Rao",
+      "Date": "22nd July",
+      "Time (IST)": "7:30 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "DATA ANALYTICS with AI/ML",
+      "Faculty": "Mr. Rajendra Prasad",
+      "Date": "22nd July",
+      "Time (IST)": "7:30 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack DATA SCIENCE with Gen AI",
+      "Faculty": "Mr. Rakesh",
+      "Date": "22nd July",
+      "Time (IST)": "7:30 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack TESTING",
+      "Faculty": "Ms. Durga",
+      "Date": "22nd July",
+      "Time (IST)": "8:30 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Playwright Automation",
+      "Faculty": "Mr. Sumanth",
+      "Date": "22nd July",
+      "Time (IST)": "9:00 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "PYTHON",
+      "Faculty": "Mr. K V Rao",
+      "Date": "22nd July",
+      "Time (IST)": "7:30 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "DevOps with Multi-Cloud",
+      "Faculty": "Mr. Reyaz",
+      "Date": "23rd July",
+      "Time (IST)": "9:00 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Gen AI & Agentic AI using Python",
+      "Faculty": "Mr. Omkar",
+      "Date": "23rd July",
+      "Time (IST)": "7:15 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "AWS",
+      "Faculty": "Mr. Reyaz",
+      "Date": "23rd July",
+      "Time (IST)": "9:00 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "C Language",
+      "Faculty": "Mr. Srinivas",
+      "Date": "24th July",
+      "Time (IST)": "6:30 PM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack PYTHON & Gen AI Placement Program",
+      "Faculty": "Team Of Experts",
+      "Date": "23rd July",
+      "Time (IST)": "9:00 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack JAVA Placement Program",
+      "Faculty": "Team Of Experts",
+      "Date": "16th July",
+      "Time (IST)": "11:00 AM",
+      "_source_table": "Website → Course Schedule"
+    },
+    {
+      "Course": "Full Stack .NET Placement Program",
+      "Faculty": "Team Of Experts",
+      "Date": "16th July",
+      "Time (IST)": "11:00 AM",
+      "_source_table": "Website → Course Schedule"
+    }
+  ]
+}

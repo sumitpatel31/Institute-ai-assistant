@@ -1,0 +1,39 @@
+NareshIT Course Schedule (Latest from Website)
+Last updated: 2026-07-19 12:41:06
+
+Course: Full Stack JAVA, Faculty: Mr. Kishan, Date: 17th July, Time (IST): 6:00 PM
+Course: Full Stack PYTHON, Faculty: Mr. Satish Gupta, Date: 17th July, Time (IST): 7:00 PM
+Course: Adv GEN AI & Agentic AI, Faculty: Mr. Prudhvi, Date: 17th July, Time (IST): 8:30 PM
+Course: Azure + Azure DevOps, Faculty: Mr. Pawan, Date: 17th July, Time (IST): 6:00 PM
+Course: CYBER SECURITY with AI, Faculty: Mr. Sourabh, Date: 17th July, Time (IST): 7:30 PM
+Course: Full Stack DATA SCIENCE with Gen AI, Faculty: Mr. Ajith Reddy, Date: 20th July, Time (IST): 7:30 AM
+Course: DSA with JAVA & System Design, Faculty: Mr. Abhijeet, Date: 17th July, Time (IST): 8:00 PM
+Course: ORACLE (SQL & PL/SQL), Faculty: Mr. Shiva Chaitanya, Date: 17th July, Time (IST): 2:00 PM
+Course: HTML | CSS | JavaScript, Faculty: Mr. Sudhakar Sharma, Date: 17th July, Time (IST): 4:00 PM
+Course: SQL SERVER, Faculty: Mr. Vijay Kumar, Date: 17th July, Time (IST): 5:30 PM
+Course: Full Stack DATA SCIENCE with Gen AI, Faculty: Mr. Ravi, Date: 17th July, Time (IST): 9:00 AM
+Course: CORE JAVA, Faculty: Mr. Kishan, Date: 17th July, Time (IST): 6:00 PM
+Course: Full Stack PYTHON, Faculty: Mr. Mahesh, Date: 17th July, Time (IST): 4:00 PM
+Course: DJANGO with Rest API, Faculty: Mr. Satish Gupta, Date: 17th July, Time (IST): 5:00 PM
+Course: PYTHON, Faculty: Mr. Mahesh, Date: 17th July, Time (IST): 4:00 PM
+Course: Full Stack .NET Core, Faculty: Mr. Bangar Raju, Date: 20th July, Time (IST): 7:30 AM
+Course: C#.NET, Faculty: Mr. Bangar Raju, Date: 20th July, Time (IST): 7:30 AM
+Course: DevSecOps Tools, Faculty: Mr. Nataraj, Date: 20th July, Time (IST): 9:00 AM
+Course: REACT JS, Faculty: Mr. Sudhakar Sharma, Date: 20th July, Time (IST): 7:30 PM
+Course: REACT JS, Faculty: Mr. Ram, Date: 20th July, Time (IST): 7:30 AM
+Course: CRT, Faculty: Mr. Naveen, Date: 20th July, Time (IST): 4:00 PM
+Course: Database for FS Python, Faculty: Mr. Sharma, Date: 22nd July, Time (IST): 7:00 PM
+Course: AWS Basics for FS Java & Python, Faculty: Mr. Imran, Date: 20th July, Time (IST): 6:00 PM
+Course: Full Stack PYTHON, Faculty: Mr. K V Rao, Date: 22nd July, Time (IST): 7:30 AM
+Course: DATA ANALYTICS with AI/ML, Faculty: Mr. Rajendra Prasad, Date: 22nd July, Time (IST): 7:30 PM
+Course: Full Stack DATA SCIENCE with Gen AI, Faculty: Mr. Rakesh, Date: 22nd July, Time (IST): 7:30 PM
+Course: Full Stack TESTING, Faculty: Ms. Durga, Date: 22nd July, Time (IST): 8:30 AM
+Course: Playwright Automation, Faculty: Mr. Sumanth, Date: 22nd July, Time (IST): 9:00 AM
+Course: PYTHON, Faculty: Mr. K V Rao, Date: 22nd July, Time (IST): 7:30 AM
+Course: DevOps with Multi-Cloud, Faculty: Mr. Reyaz, Date: 23rd July, Time (IST): 9:00 AM
+Course: Gen AI & Agentic AI using Python, Faculty: Mr. Omkar, Date: 23rd July, Time (IST): 7:15 PM
+Course: AWS, Faculty: Mr. Reyaz, Date: 23rd July, Time (IST): 9:00 AM
+Course: C Language, Faculty: Mr. Srinivas, Date: 24th July, Time (IST): 6:30 PM
+Course: Full Stack PYTHON & Gen AI Placement Program, Faculty: Team Of Experts, Date: 23rd July, Time (IST): 9:00 AM
+Course: Full Stack JAVA Placement Program, Faculty: Team Of Experts, Date: 16th July, Time (IST): 11:00 AM
+Course: Full Stack .NET Placement Program, Faculty: Team Of Experts, Date: 16th July, Time (IST): 11:00 AM
