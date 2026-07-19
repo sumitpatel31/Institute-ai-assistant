@@ -1,17 +1,3 @@
-"""
-app.py — Streamlit UI for the NareshIT RAG Assistant.
-
-Features:
-  - Dark theme, responsive layout
-  - Chat interface with conversation history
-  - Sidebar with admin controls
-  - PDF upload for admin
-  - Refresh Website Data button (re-scrapes & rebuilds index)
-  - Clear Chat button
-  - Show Sources toggle
-  - Institute branding / logo
-"""
-
 from __future__ import annotations
 
 import sys
@@ -20,8 +6,6 @@ from pathlib import Path
 
 import streamlit as st
 
-# Ensure project root is on sys.path so all imports work when
-# Streamlit runs this file directly.
 PROJECT_ROOT = Path(__file__).resolve().parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
@@ -31,9 +15,6 @@ from config import settings
 from rag_pipeline import get_pipeline
 from utils import logger
 
-# =====================================================================
-# Page configuration — MUST be the first Streamlit command
-# =====================================================================
 st.set_page_config(
     page_title="NareshIT AI Assistant",
     page_icon="🎓",
@@ -41,9 +22,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# =====================================================================
-# Custom CSS — Dark theme + responsive tweaks
-# =====================================================================
+
 CUSTOM_CSS = """
 <style>
     /* ---- Global dark overrides ---- */
@@ -127,9 +106,7 @@ CUSTOM_CSS = """
 
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
-# =====================================================================
-# Session state initialisation
-# =====================================================================
+
 if "chatbot" not in st.session_state:
     st.session_state.chatbot: Chatbot | None = None
 if "pipeline_initialised" not in st.session_state:
@@ -138,9 +115,6 @@ if "show_sources" not in st.session_state:
     st.session_state.show_sources = True
 
 
-# =====================================================================
-# Helper functions
-# =====================================================================
 def render_message(msg: ChatMessage, show_sources: bool) -> None:
     """Render a chat message in the Streamlit chat UI."""
     with st.chat_message(msg.role):
@@ -210,9 +184,9 @@ def handle_pdf_upload(uploaded_files) -> None:
             st.error(f"Failed to rebuild index: {exc}")
 
 
-# =====================================================================
+
 # Sidebar
-# =====================================================================
+
 def render_sidebar() -> None:
     """Render the sidebar with branding, controls, and info."""
     with st.sidebar:
@@ -284,9 +258,9 @@ def render_sidebar() -> None:
             st.markdown('<span class="status-loading">● Initialising …</span>', unsafe_allow_html=True)
 
 
-# =====================================================================
+
 # Main chat interface
-# =====================================================================
+
 def render_chat() -> None:
     """Render the main chat area with all messages and input."""
     st.title("💬 Ask NareshIT Assistant")
@@ -330,9 +304,9 @@ def render_chat() -> None:
         st.rerun()
 
 
-# =====================================================================
+
 # Entry point
-# =====================================================================
+
 def main() -> None:
     """Streamlit app entry point."""
     # Render sidebar first (it has branding + controls)
