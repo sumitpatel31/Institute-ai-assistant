@@ -1,9 +1,4 @@
-"""
-pdf_loader.py — Load and extract text from PDF files.
 
-Reads every PDF inside ``data/pdfs/``, extracts text page by page,
-applies cleaning, and returns documents ready for chunking.
-"""
 
 from __future__ import annotations
 
@@ -54,9 +49,9 @@ class PDFLoader:
         """Load a single PDF file by path."""
         return self._load_single(Path(path))
 
-    # ------------------------------------------------------------------
+  
     # Internals
-    # ------------------------------------------------------------------
+
     def _load_single(self, pdf_path: Path) -> list[Document]:
         """Extract text from a single PDF and return Document objects."""
         try:
@@ -93,9 +88,8 @@ class PDFLoader:
         return documents
 
 
-# ---------------------------------------------------------------------------
 # Convenience
-# ---------------------------------------------------------------------------
+
 def load_pdfs() -> list[Document]:
     """One-call helper used by the RAG pipeline on startup."""
     loader = PDFLoader()
