@@ -1,10 +1,4 @@
-"""
-vector_store.py — FAISS-based vector store with persistent local storage.
 
-Manages creation, persistence, loading, and rebuilding of the FAISS
-index.  Website data is always indexed first (higher priority),
-followed by PDF documents.
-"""
 
 from __future__ import annotations
 
@@ -173,9 +167,9 @@ class VectorStoreManager:
         logger.info("FAISS index saved to %s", settings.faiss_index_path)
 
 
-# ---------------------------------------------------------------------------
+
 # Module-level singleton
-# ---
+
 _vector_store_manager: VectorStoreManager | None = None
 
 
