@@ -1,10 +1,3 @@
-"""
-config.py — Central configuration for the NareshIT RAG Assistant.
-
-Loads environment variables from .env and exposes them as a single
-Settings dataclass so every module can import `settings` once.
-"""
-
 from __future__ import annotations
 
 import os
@@ -12,9 +5,9 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from dotenv import load_dotenv
 
-# ---------------------------------------------------------------------------
+
 # Resolve project root (two levels up from this file)
-# ---------------------------------------------------------------------------
+
 PROJECT_ROOT: Path = Path(__file__).resolve().parent
 load_dotenv(PROJECT_ROOT / ".env")
 
@@ -76,9 +69,6 @@ class Settings:
         return self.scraped_dir / "course_schedule.txt"
 
 
-# ---------------------------------------------------------------------------
-# Singleton instance used throughout the project
-# ---------------------------------------------------------------------------
 settings = Settings()
 
 # Ensure required directories exist
